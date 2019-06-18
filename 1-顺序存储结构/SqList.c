@@ -89,7 +89,7 @@ Status List_Insert(SqListPtr L, int pos, ElemType elem) //²åÈë²Ù×÷
 				int i;
 				for (i = L->length; i >= pos; --i)
 					L->elem[i + 1] = L->elem[i];
-				L->elem[i] = elem;
+				L->elem[i+1] = elem;
 				L->length++;
 				s = success;
 			}

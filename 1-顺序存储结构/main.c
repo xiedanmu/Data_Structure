@@ -24,29 +24,33 @@ int main()
 		case 1:
 			printf("线性表长度:\n");
 			scanf_s("%d", &size);
-			data = (ElemType*)malloc(size * sizeof(ElemType));
+			data = (ElemType*)malloc((size+1) * sizeof(ElemType));
 			if (data == NULL)
 				break;
 			printf("线性表元素:\n");
-			for (i = 0; i < size; i++)
+			for (i = 1; i <= size; i++)
 				scanf_s("%d", &data[i]);
-				
-			s = Test_ClearList(&list, data, size);
+
+			s = Test_CreateList(&list, data, size);
 			if (s != success)
+			{
 				printf("建立线性表失败\n");
+			}	
+			free(data);
+			List_Destory(&list);
 			break;
 
 		case 2:
 			printf("线性表长度:\n");
 			scanf_s("%d", &size);
-			data = (ElemType*)malloc(size * sizeof(ElemType));
+			data = (ElemType*)malloc((size + 1) * sizeof(ElemType));
 			if (data == NULL)
 				break;
 			printf("线性表元素:\n");
-			for (i = 0; i < size; i++)
+			for (i = 1; i <= size; i++)
 				scanf_s("%d", &data[i]);
 
-			s = Test_ClearList(&list, data, size);
+			s = Test_CreateList(&list, data, size);
 			if (s == success)
 			{
 				if (!List_Empty(&list))
@@ -58,61 +62,71 @@ int main()
 					}
 				}
 			}
+			free(data);
+			List_Destory(&list);
+
 			break;
 
 		case 3:
 			printf("线性表长度:\n");
 			scanf_s("%d", &size);
-			data = (ElemType*)malloc(size * sizeof(ElemType));
+			data = (ElemType*)malloc((size + 1) * sizeof(ElemType));
 			if (data == NULL)
 				break;
 			printf("线性表元素:\n");
-			for (i = 0; i < size; i++)
+			for (i = 1; i <= size; i++)
 				scanf_s("%d", &data[i]);
 
-			s = Test_ClearList(&list, data, size);
+			s = Test_CreateList(&list, data, size);
 			if (s == success)
 			{
 				printf("输入待查找的位置:\n");
 				scanf_s("%d", &pos);
 				Test_RetrivalPriorNext(&list, pos);
 			}
+			free(data);
 			break;
 
 		case 4:
 			printf("线性表长度:\n");
 			scanf_s("%d", &size);
-			data = (ElemType*)malloc(size * sizeof(ElemType));
+			data = (ElemType*)malloc((size + 1) * sizeof(ElemType));
 			if (data == NULL)
 				break;
 			printf("线性表元素:\n");
-			for (i = 0; i < size; i++)
+			for (i = 1; i <= size; i++)
 				scanf_s("%d", &data[i]);
 
-			s = Test_ClearList(&list, data, size);
+			s = Test_CreateList(&list, data, size);
 			if (s == success)
 			{
 				printf("输入待查询的元素值:\n");
 				scanf_s("%d",&e);
 				Test_Locate(&list, e);
 			}
+			free(data);
+			List_Destory(&list);
+
 			break;
 
 		case 5:
 			printf("线性表长度:\n");
 			scanf_s("%d", &size);
-			data = (ElemType*)malloc(size * sizeof(ElemType));
+			data = (ElemType*)malloc((size + 1) * sizeof(ElemType));
 			if (data == NULL)
 				break;
 			printf("线性表元素:\n");
-			for (i = 0; i < size; i++)
+			for (i = 1; i <= size; i++)
 				scanf_s("%d", &data[i]);
 
-			s = Test_ClearList(&list, data, size);
+			s = Test_CreateList(&list, data, size);
 			if (s == success)
 			{
 				Test_Size(&list);
 			}
+			free(data);
+			List_Destory(&list);
+
 			break;
 
 		default:
