@@ -154,3 +154,20 @@ void List_Print(SqListPtr L)
 		}
 	}
 }
+Status List_Union(SqListPtr La, SqListPtr Lb)
+{
+	Status s = fail;
+	ElemType elem;
+	int i,j,len = List_Size(Lb);
+	for (int i = 1; i <= Lb->length; i++)
+	{
+		List_Retrival(Lb, i, &elem);
+		s = List_Locate(La, elem, &j);
+		if (s != success)
+		{
+			s = List_Insert(La, 1, elem);
+			if (s != success) break;
+		}
+	}
+	return s;
+}

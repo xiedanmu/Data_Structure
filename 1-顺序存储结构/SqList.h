@@ -28,3 +28,4 @@ Status List_delete(SqListPtr L, int pos);
 Status List_Prior(SqListPtr L, int pos, ElemType * elem); 
 Status List_Next(SqListPtr L, int pos, ElemType *elem);
 void List_Print(SqListPtr L);
+Status List_Union(SqListPtr La, SqListPtr Lb);
