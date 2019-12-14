@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2046
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1-顺序存储结构", "1-顺序存储结构\1-顺序存储结构.vcxproj", "{D4A275B2-9A66-4517-9C0A-8AF806A6F6CE}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3-顺序栈", "3-顺序栈\3-顺序栈.vcxproj", "{F93A8D69-34E4-44ED-B554-17105D4BD0FC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4-链栈", "4-链栈\4-链栈.vcxproj", "{B6E772E9-0E18-4BA5-ABE6-B2BF5F27EEA3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5-哈希表", "5-哈希表\5-哈希表.vcxproj", "{BFEB188E-0126-4C02-AFC5-02F60F9E4F92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,14 @@ Global
 		{B6E772E9-0E18-4BA5-ABE6-B2BF5F27EEA3}.Release|x64.Build.0 = Release|x64
 		{B6E772E9-0E18-4BA5-ABE6-B2BF5F27EEA3}.Release|x86.ActiveCfg = Release|Win32
 		{B6E772E9-0E18-4BA5-ABE6-B2BF5F27EEA3}.Release|x86.Build.0 = Release|Win32
+		{BFEB188E-0126-4C02-AFC5-02F60F9E4F92}.Debug|x64.ActiveCfg = Debug|x64
+		{BFEB188E-0126-4C02-AFC5-02F60F9E4F92}.Debug|x64.Build.0 = Debug|x64
+		{BFEB188E-0126-4C02-AFC5-02F60F9E4F92}.Debug|x86.ActiveCfg = Debug|Win32
+		{BFEB188E-0126-4C02-AFC5-02F60F9E4F92}.Debug|x86.Build.0 = Debug|Win32
+		{BFEB188E-0126-4C02-AFC5-02F60F9E4F92}.Release|x64.ActiveCfg = Release|x64
+		{BFEB188E-0126-4C02-AFC5-02F60F9E4F92}.Release|x64.Build.0 = Release|x64
+		{BFEB188E-0126-4C02-AFC5-02F60F9E4F92}.Release|x86.ActiveCfg = Release|Win32
+		{BFEB188E-0126-4C02-AFC5-02F60F9E4F92}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
