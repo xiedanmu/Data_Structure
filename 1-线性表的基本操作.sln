@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4-链栈", "4-链栈\4-链�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5-哈希表", "5-哈希表\5-哈希表.vcxproj", "{BFEB188E-0126-4C02-AFC5-02F60F9E4F92}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6-树", "6-树\6-树.vcxproj", "{25CA69DD-3A57-4B8F-89D5-0F0D32D19333}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{BFEB188E-0126-4C02-AFC5-02F60F9E4F92}.Release|x64.Build.0 = Release|x64
 		{BFEB188E-0126-4C02-AFC5-02F60F9E4F92}.Release|x86.ActiveCfg = Release|Win32
 		{BFEB188E-0126-4C02-AFC5-02F60F9E4F92}.Release|x86.Build.0 = Release|Win32
+		{25CA69DD-3A57-4B8F-89D5-0F0D32D19333}.Debug|x64.ActiveCfg = Debug|x64
+		{25CA69DD-3A57-4B8F-89D5-0F0D32D19333}.Debug|x64.Build.0 = Debug|x64
+		{25CA69DD-3A57-4B8F-89D5-0F0D32D19333}.Debug|x86.ActiveCfg = Debug|Win32
+		{25CA69DD-3A57-4B8F-89D5-0F0D32D19333}.Debug|x86.Build.0 = Debug|Win32
+		{25CA69DD-3A57-4B8F-89D5-0F0D32D19333}.Release|x64.ActiveCfg = Release|x64
+		{25CA69DD-3A57-4B8F-89D5-0F0D32D19333}.Release|x64.Build.0 = Release|x64
+		{25CA69DD-3A57-4B8F-89D5-0F0D32D19333}.Release|x86.ActiveCfg = Release|Win32
+		{25CA69DD-3A57-4B8F-89D5-0F0D32D19333}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
