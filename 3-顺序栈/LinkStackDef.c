@@ -42,7 +42,7 @@ Status Stack_Empty(StackPtr s) {
 
 }
 
-Status Stack_Top(StackPtr s, StackEntry *item){
+Status Stack_Top(StackPtr s, StackEntry* item) {
 	Status outcome = success;
 	StackNodePtr x = s->top->next;
 	if (x->Entry == NULL) {

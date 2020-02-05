@@ -8,7 +8,7 @@ typedef struct Node {
 
 typedef struct stack {
 	StackNodePtr top;
-}Stack, *StackPtr;
+}Stack, * StackPtr;
 
 typedef enum Status
 {
