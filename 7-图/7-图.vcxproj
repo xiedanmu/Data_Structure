@@ -141,6 +141,7 @@
     <ClInclude Include="Graph.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DijkstraInMatrix.cpp" />
     <ClCompile Include="Graph.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

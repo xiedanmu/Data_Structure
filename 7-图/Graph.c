@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include"Graph.h"
-
+/*
 int main() {
 	int v = 5;
 	struct Graph* graph = newGraph(v);
@@ -17,3 +17,4 @@ int main() {
 	system("pause");
 	return 0;
 }
+*/
