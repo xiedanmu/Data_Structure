@@ -53,7 +53,7 @@ void dijkstra(int graph[V][V], int src)
 	
 	printTheShortestPath(dist,src);
 }
-
+/*
 int main()
 {
 	int graph[V][V] = { { 0, 4, 0, 0, 0, 0, 0, 8, 0 },
@@ -71,3 +71,4 @@ int main()
 	system("pause");
 	return 0;
 }
+*/

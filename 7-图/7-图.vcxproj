@@ -141,6 +141,8 @@
     <ClInclude Include="Graph.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BFS.cpp" />
+    <ClCompile Include="DFS.cpp" />
     <ClCompile Include="DijkstraInMatrix.cpp" />
     <ClCompile Include="Graph.c" />
   </ItemGroup>
