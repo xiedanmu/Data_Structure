@@ -139,12 +139,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Graph.h" />
+    <ClInclude Include="MinHeap.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BFS.cpp" />
     <ClCompile Include="DFS.cpp" />
     <ClCompile Include="DijkstraInMatrix.cpp" />
     <ClCompile Include="Graph.c" />
+    <ClCompile Include="MinHeapTest.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
