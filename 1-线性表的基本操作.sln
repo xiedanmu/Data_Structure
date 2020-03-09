@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6-树", "6-树\6-树.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-图", "7-图\7-图.vcxproj", "{523792E6-CDAF-4796-BF97-93766D51FE85}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "路径算法", "路径算法\路径算法.vcxproj", "{F961D050-10EC-44CF-B04F-26C8DDDCFC74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{523792E6-CDAF-4796-BF97-93766D51FE85}.Release|x64.Build.0 = Release|x64
 		{523792E6-CDAF-4796-BF97-93766D51FE85}.Release|x86.ActiveCfg = Release|Win32
 		{523792E6-CDAF-4796-BF97-93766D51FE85}.Release|x86.Build.0 = Release|Win32
+		{F961D050-10EC-44CF-B04F-26C8DDDCFC74}.Debug|x64.ActiveCfg = Debug|x64
+		{F961D050-10EC-44CF-B04F-26C8DDDCFC74}.Debug|x64.Build.0 = Debug|x64
+		{F961D050-10EC-44CF-B04F-26C8DDDCFC74}.Debug|x86.ActiveCfg = Debug|Win32
+		{F961D050-10EC-44CF-B04F-26C8DDDCFC74}.Debug|x86.Build.0 = Debug|Win32
+		{F961D050-10EC-44CF-B04F-26C8DDDCFC74}.Release|x64.ActiveCfg = Release|x64
+		{F961D050-10EC-44CF-B04F-26C8DDDCFC74}.Release|x64.Build.0 = Release|x64
+		{F961D050-10EC-44CF-B04F-26C8DDDCFC74}.Release|x86.ActiveCfg = Release|Win32
+		{F961D050-10EC-44CF-B04F-26C8DDDCFC74}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

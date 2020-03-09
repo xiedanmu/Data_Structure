@@ -4,7 +4,7 @@
 #include<time.h>
 #define max 100   
 #define min 1    
-
+/*
 int main()
 {
 	srand(time(0));
@@ -21,3 +21,4 @@ int main()
 	system("pause");
 	return 0;
 }
+*/
