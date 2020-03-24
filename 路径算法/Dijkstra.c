@@ -254,20 +254,6 @@ void swap(MinHeapNodePtr x, MinHeapNodePtr y)
 	*y = temp;
 }
 
-int qiumi(int cishu, int n, int dest)
-{
-	int NumberOfLine = n * 2;
-	cishu++;
-	if (NumberOfLine < dest)
-	{
-		return qiumi(cishu, NumberOfLine, dest);
-	}
-	if (NumberOfLine > dest)
-	{
-		return cishu;
-	}
-}
-
 bool isInMinHeap(struct MinHeap* minHeap, int v)
 {
 	if (minHeap->array[minHeap->pos[v]] != NULL)
